@@ -2154,3 +2154,60 @@ footer p {
     background:#e86b00;
     transform:scale(1.05);
 }
+
+/* Mobile Gallery Fix */
+@media (max-width:768px){
+
+    .gallery-content{
+        width:90%;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .gallery-content h1{
+        font-size:42px;
+        margin-left:0;
+        line-height:1.2;
+    }
+
+    .tagline{
+        font-size:16px;
+        letter-spacing:2px;
+    }
+
+    .underline{
+        width:180px;
+        margin:20px auto;
+    }
+
+    .description{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .gallery-btn{
+        padding:14px 30px;
+        font-size:16px;
+    }
+
+    .gallery-hero{
+        height:100vh;
+    }
+}
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        padding:15px;
+    }
+
+    .logo{
+        margin-bottom:10px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+}
